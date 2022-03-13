@@ -1,0 +1,63 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+.box{
+    
+    width: 460px;
+    border-radius: 30px;
+}
+.container{
+    
+    text-align: center;
+    border-radius: 30px;
+    width: 460px;
+}
+.container h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+button{
+    cursor: pointer;
+   background-color: blue;
+    border-radius: 20px;
+    margin-left: 10%;
+    height: 50px;
+    width: 40px;
+}
+button:hover{
+    cursor: pointer;
+    color: aqua;
+}
+#inputField{
+  
+    border-radius: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 260px;
+    height: 40px;
+    border: 1px dashed rgb(151, 147, 147);
+    outline: none;
+}
+#addToDo{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 2px solid rgb(43, 9, 75);
+}
+.paragraph-styling{
+   
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 13px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: progress    ;
+}
+.to-dos {
+    margin-top: 25px;
+}
